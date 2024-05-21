@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container mt-3 text-center border shadow bg-light rounded border-secondary p-3">
+        
+        <div class="button-area px-1">
+            <button class="btn btn-primary p-2 fs-5"
+                    onclick="generateQuote()"
+                    accesskey="q">Click to Generate a <u>Q</u>uote</button>
+        </div>
+
+        <hr/>
+
+        <div class="quote-area">
+            <p id="quote">
+                Quote Generator
+            </p>
+            
+            <div id="quoteOwner"></div>
+        </div>
+        
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
